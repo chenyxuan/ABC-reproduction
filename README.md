@@ -50,7 +50,7 @@ $ sh generate_plots.sh
 
 When this completes, you will have plots for Figure 1, Figure 2a, Figure 2b, and the variable ack path experiment saved in a `/plots/` directory.
 
-## Figure 2
+## Figures
 
 `experiments.py` contains the code to reproduce Figures 1 and 2. This runs traces against each protocol and optionally saves the results to a csv file. The `--schemes` command-line parameter takes in a comma-separated list of protocols to run.  If the option is not given, results for all protocols are generated. The `--experiment` parameter takes a string in `figure1, figure2a, figure2b, bothlinks, pa1` according to which experiment we are running.
 
