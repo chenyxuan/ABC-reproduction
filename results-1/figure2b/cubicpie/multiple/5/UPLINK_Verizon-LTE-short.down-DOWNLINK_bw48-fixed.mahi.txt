@@ -1,0 +1,10 @@
+Average capacity: 5.04 Mbits/s
+Average throughput: 2.74 Mbits/s (54.4% utilization)
+95th percentile per-packet queueing delay: 72 ms
+95th percentile signal delay: 147 ms
+
+gnuplot> set terminal svg size 1024,560 fixed  fname 'Arial'  fsize 12 rounded solid mouse standalone name "Throughput"
+                                                              ^
+         line 0: unrecognized terminal option
+
+Died at /usr/local/bin/mm-throughput-graph line 224, <> line 123061.

@@ -1,0 +1,10 @@
+{
+  "name": "verus",
+  "prep_commands": ["python ~/pantheon/src/wrappers/verus.py sender 9090"],
+  "mahimahi_command": "python ~/pantheon/src/wrappers/verus.py receiver $MAHIMAHI_BASE 9090",
+  "cleanup_commands": ["killall sender", "killall receiver", 
+                       "killall verus_server", "killall verus_client"],
+  "uplink_queue": "droptail",
+  "uplink_queue_args": "packets=100",
+  "target_link": "downlink"
+}

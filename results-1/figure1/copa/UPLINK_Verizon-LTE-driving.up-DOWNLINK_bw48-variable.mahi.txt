@@ -1,0 +1,2 @@
+Use of uninitialized value $capacity_sum in division (/) at /usr/local/bin/mm-throughput-graph line 148, <> line 7.
+Illegal division by zero at /usr/local/bin/mm-throughput-graph line 148, <> line 7.
